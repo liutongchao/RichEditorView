@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <RichEditorView/CJWWebView+HackishAccessoryHiding.h>
+//#import <RichEditorView/CJWWebView+HackishAccessoryHiding.h>
 
 //! Project version number for RichEditorView.
 FOUNDATION_EXPORT double RichEditorViewVersionNumber;
