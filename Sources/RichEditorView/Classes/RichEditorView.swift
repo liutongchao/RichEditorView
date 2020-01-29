@@ -46,10 +46,10 @@ import UIKit
 
     /// Input accessory view to display over they keyboard.
     /// Defaults to nil
-    open override var inputAccessoryView: UIView? {
-        get { return webView.cjw_inputAccessoryView }
-        set { webView.cjw_inputAccessoryView = newValue }
-    }
+//    open override var inputAccessoryView: UIView? {
+//        get { return webView.cjw_inputAccessoryView }
+//        set { webView.cjw_inputAccessoryView = newValue }
+//    }
 
     /// The internal UIWebView that is used to display the text.
     open private(set) var webView: UIWebView
@@ -150,7 +150,7 @@ import UIKit
         webView.scrollView.delegate = self
         webView.scrollView.clipsToBounds = false
         
-        webView.cjw_inputAccessoryView = nil
+//        webView.cjw_inputAccessoryView = nil
         
         self.addSubview(webView)
         

@@ -68,7 +68,6 @@
 		FBA6AB8A1AD3ED3C00721644 /* RichEditorOptionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6AB851AD3ED3C00721644 /* RichEditorOptionItem.swift */; };
 		FBA6AB8B1AD3ED3C00721644 /* RichEditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6AB861AD3ED3C00721644 /* RichEditorToolbar.swift */; };
 		FBA6AB8C1AD3ED3C00721644 /* RichEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6AB871AD3ED3C00721644 /* RichEditorView.swift */; };
-		FBA6ABC51AD3FD2E00721644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA6ABC41AD3FD2E00721644 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,7 +147,6 @@
 		FBA6AB861AD3ED3C00721644 /* RichEditorToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RichEditorToolbar.swift; path = Classes/RichEditorToolbar.swift; sourceTree = "<group>"; };
 		FBA6AB871AD3ED3C00721644 /* RichEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RichEditorView.swift; path = Classes/RichEditorView.swift; sourceTree = "<group>"; };
 		FBA6AB951AD3F3E700721644 /* RichEditorView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RichEditorView-Bridging-Header.h"; sourceTree = "<group>"; };
-		FBA6ABC41AD3FD2E00721644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +154,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA6ABC51AD3FD2E00721644 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +171,6 @@
 		FBA6AAEF1AD3EC9F00721644 = {
 			isa = PBXGroup;
 			children = (
-				FBA6ABC41AD3FD2E00721644 /* UIKit.framework */,
 				FBA6AAFB1AD3EC9F00721644 /* RichEditorView */,
 				FBA6AB081AD3EC9F00721644 /* RichEditorViewTests */,
 				FBA6AAFA1AD3EC9F00721644 /* Products */,
