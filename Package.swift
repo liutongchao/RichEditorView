@@ -11,6 +11,5 @@ let package = Package(
     ],
     targets: [
         .target(name: "RichEditorView")
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
